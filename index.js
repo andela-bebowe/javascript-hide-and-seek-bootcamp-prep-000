@@ -26,6 +26,7 @@ function deepestChild() {
     for (var i = 0; i < current.length; i++) {
       next.push(current[i])
     }
+
     current = next.shift()
     current = current.querySelectorAll('div')
   }
